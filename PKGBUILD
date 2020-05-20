@@ -11,6 +11,7 @@ license=('BSD')
 ros_makedepends=(ros-melodic-moveit-core
   ros-melodic-pluginlib
   ros-melodic-dynamic-reconfigure
+  ros-melodic-moveit-ros-occupancy-map-monitor
   ros-melodic-moveit-ros-perception
   ros-melodic-actionlib
   ros-melodic-angles
@@ -23,6 +24,7 @@ makedepends=('cmake' 'ros-build-tools'
 ros_depends=(ros-melodic-moveit-core
   ros-melodic-pluginlib
   ros-melodic-dynamic-reconfigure
+  ros-melodic-moveit-ros-occupancy-map-monitor
   ros-melodic-moveit-ros-perception
   ros-melodic-actionlib
   ros-melodic-chomp-motion-planner
